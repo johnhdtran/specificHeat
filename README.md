@@ -9,5 +9,5 @@ Calculator
 ============
 Also included is a quick heat energy calculator checker. It allows students to quickly double check their work without receiving the correct answer.
 
-Base equation for heat energy is q = mc/deltaT
+Base equation for heat energy is q = mc(deltaT)
 

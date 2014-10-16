@@ -1,0 +1,23 @@
+<div class="container">
+<h1>{{engTools.title}}</h1>
+
+<div class="col-lg-6">
+    Search: <input ng-model="query" type="text" />
+    <br>
+    <br>
+    Filter by: <button ng-click="engTools.sortField = 'name'; reverse = !reverse" class="btn btn-secondary">Name</button>
+    <button ng-click="engTools.sortField = 'specificHeat'; reverse = !reverse" class="btn btn-secondary">Specific Heat</button>
+    <br>
+    <br>
+    <table>
+      <tr>
+        <th class="col-sm-1">Substance</th>
+        <th class="col-sm-5">Specific Heat | J/kg*K</th>
+      </tr>
+      <tr ng-repeat="substance in engTools.specificHeat | filter:query | orderBy:engTools.sortField:reverse">
+        <td>{{substance.name}}</td>
+        <td>{{substance.specificHeat | number}}</td>
+      </tr>
+    </table>
+</div>
+</div>

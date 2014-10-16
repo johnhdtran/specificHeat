@@ -1,0 +1,30 @@
+<div class="container">
+	<h1>{{calc.title}}</h1>
+	<p>NOTE: Always round up!</p>
+	<p>Directions: Input your problem variables. Attempt the calculation yourself to input "My Answer." Click calculate. Then click Check Answer.</p>
+	<form name="myForm">
+		Mass (m): <input type="number" ng-model="calc.mass" required placeholder="">
+		<br />
+		<br />
+		Specific Heat Capacity (c): <input type="number" ng-model="calc.heatc" required placeholder="">
+		<br />
+		<br />
+		Initial Temperature (Ti): <input type="number" ng-model="calc.Ti" required placeholder="">
+		<br />
+		<br />
+		Final Temperature (Tf): <input type="number" ng-model="calc.Tf" required placeholder="">
+		<br />
+		<br />
+		My Answer: <input name="myInput" type="number" ng-model="calc.myAns" required placeholder="">
+		<span class="error" ng-show="myForm.myInput.$error.number">Not a Valid Number!</span>
+		<br />
+		<br />
+		<button ng-click="calc.Qeqn()" class="btn btn-secondary">Calculate</button>
+		<!-- <b>Heat Energy (Q)</b> = {{calc.heatEnergy}} -->
+		<br />
+		<br />
+		<button ng-click="calc.checkAns()" class="btn btn-secondary">Check Answer</button>
+		<br />
+		<br />
+	</form>
+</div>

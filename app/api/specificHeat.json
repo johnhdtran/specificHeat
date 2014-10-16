@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Aluminum",
+    "specificHeat": 900
+  },
+  {
+    "name": "Iron/steel",
+    "specificHeat": 450
+  },
+  {
+    "name": "Copper",
+    "specificHeat": 390
+  },
+  {
+    "name": "Brass",
+    "specificHeat": 380
+  },
+  {
+    "name": "Zinc",
+    "specificHeat": 380
+  },
+  {
+    "name": "Silver",
+    "specificHeat": 230
+  },
+  {
+    "name": "Mercury",
+    "specificHeat": 140
+  },
+  {
+    "name": "Tungsten",
+    "specificHeat": 135
+  },
+  {
+    "name": "Platinum",
+    "specificHeat": 130
+  },
+  {
+    "name": "Lead",
+    "specificHeat": 130
+  },
+  {
+    "name": "Hydrogen",
+    "specificHeat": 14000
+  },
+  {
+    "name": "Air",
+    "specificHeat": 718
+  },
+  {
+    "name": "Nitrogen",
+    "specificHeat": 1040
+  },
+  {
+    "name": "Steam",
+    "specificHeat": 2000
+  },
+  {
+    "name": "Ice",
+    "specificHeat": 2100
+  },
+  {
+    "name": "Wood",
+    "specificHeat": 1700
+  },
+  {
+    "name": "Nylon",
+    "specificHeat": 1700
+  },
+  {
+    "name": "Rubber",
+    "specificHeat": 1700
+  },
+  {
+    "name": "Marble",
+    "specificHeat": 880
+  },
+  {
+    "name": "Concrete",
+    "specificHeat": 850
+  },
+  {
+    "name": "Granite",
+    "specificHeat": 840
+  },
+  {
+    "name": "Sand",
+    "specificHeat": 800
+  },
+  {
+    "name": "Glass",
+    "specificHeat": 670
+  },
+  {
+    "name": "Carbon",
+    "specificHeat": 500
+  },
+  {
+    "name": "Ethanol",
+    "specificHeat": 2400
+  },
+  {
+    "name": "Paraffin",
+    "specificHeat": 2100
+  },
+  {
+    "name": "Water",
+    "specificHeat": 4186
+  },
+  {
+    "name": "Sea water",
+    "specificHeat": 3900
+  }
+]
